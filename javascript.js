@@ -50,7 +50,7 @@ else if (mois == 4){moisl="Avril"}
 else if (mois == 5){moisl="Mai"}
 else if (mois == 6){moisl="Juin"}
 else if (mois == 7){moisl="Juillet"}
-else if (mois == 8){moisl="Aout"}
+else if (mois == 8){moisl="Août"}
 else if (mois == 9){moisl="Septembre"}
 else if (mois == 10){moisl="octobre"}
 else if (mois == 11){moisl="Novembre"}

@@ -152,7 +152,7 @@ animation-direction: alternate;}
 #boxsommaire
         {
             flex-wrap: wrap;justify-content: space-around;align-content: space-around;
-            width: 100%;height: 650px;
+            width: 100%;
             margin-top: 40px;position: absolute;top: 0%;left: 0%;
             display: none;user-select: none;
         }
@@ -161,25 +161,35 @@ animation-direction: alternate;}
 .boxsommaire1{transition-duration: 0.8s;margin-left: 0px;transform: scale(1); opacity: 1;} 
 .boxsommaire1.opaque{margin-left: -400px;transform: scale(0);opacity: 0;}
 
+#boxinitiale{width: 100%;
+    border-radius: 20px;background-color: rgba(255, 255, 255, 0.224);
+    margin: 10px;display: flex;justify-content: space-around;
+    }
+body {font-family: Arial, Helvetica, sans-serif;}
+#boxinitiale p {font-size: 10pt;text-align: justify;width: 90%;}
+    .boxinitilepartie1{width: 32%;background-image: url(photos/slogan.png);
+                        background-repeat: no-repeat;background-size: contain;background-position: center;}
+    .boxinitilepartie2{width: 62%;border: 1px solid black;}
+
 #boxblocbt{
-    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;
+    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 10px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;}
 
     #boxblocbt:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
     
     
 #boxlivresbt{
-    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;
+    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;margin: 10px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;}
     #boxlivresbt:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
 
 #boxflyersbt{
-    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;
+    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;margin: 10px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;}
     #boxflyersbt:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
 
 #boxportedocbt{
-    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;
+    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;margin: 10px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;}
     #boxportedocbt:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
 
@@ -286,60 +296,11 @@ animation-direction: alternate;}
 /* ----------------------------------------- code responsive------------------------------------------------------- */
 
 
-@media screen and (min-width : 721px) and (max-width : 1080px){
-     /*Menu Responsive Screen Moyen*/
-     #barrehaut {
-        position: fixed;top: 0;left: 0;background-color: black;
-        width:100%; height: 40px;display: flex;justify-content: flex-start;align-items: center;
-        user-select: none;font-family: Arial;}
+/*Menu Responsive Screen Moyen*/
 
-        #menu
-            {
-                width: 800px;
-                display: flex;justify-content: space-around;align-items: center;padding: 0%;
-            }
-        
-        .menu1{transition-duration: 0.8s;margin-left: -10px;opacity: 1;} 
-        .menu1.opaque{margin-left: -400px;opacity: 0;}
-
-        .menu0{transition-duration: 0.8s;margin-left: -400px; opacity: 0;} 
-        .menu0.opaque{margin-left: 0px;opacity: 1;}
-
-        #logobarrehaut{width: 33px;height: 33px;margin-right: 30px;margin-left: 20px;z-index: 91;}
-        #logobarrehaut:hover{opacity: 0.7;}
-
-        #sommairebt{color: white; font-size : 10pt;width: 120px;text-align: center;height: 25px;padding-top: 10px;
-                    background-color: black;border-bottom: 5px solid rgba(255, 0, 0, 0);}
-        #sommairebt:hover{border-bottom: 5px solid rgb(255, 0, 0);font-weight: bold;
-                          text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.479);background-color:rgba(128, 128, 128, 0.379);}
-
-        #blocbt{color: white; font-size : 10pt;width: 120px;text-align: center;height: 25px;padding-top: 10px;
-            background-color: black;border-bottom: 5px solid rgba(255, 0, 0, 0);}
-        #blocbt:hover{border-bottom: 5px solid rgb(255, 0, 0);font-weight: bold;
-            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.479);background-color:rgba(128, 128, 128, 0.379);}
-
-        #livresbt{color: white; font-size : 10pt;width: 120px;text-align: center;height: 25px;padding-top: 10px;
-            background-color: black;border-bottom: 5px solid rgba(255, 0, 0, 0);}
-        #livresbt:hover{border-bottom: 5px solid rgb(255, 0, 0);font-weight: bold;
-            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.479);background-color:rgba(128, 128, 128, 0.379);}
-
-        #flyersbt{color: white; font-size : 10pt;width: 120px;text-align: center;height: 25px;padding-top: 10px;
-            background-color: black;border-bottom: 5px solid rgba(255, 0, 0, 0);}
-        #flyersbt:hover{border-bottom: 5px solid rgb(255, 0, 0);font-weight: bold;
-            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.479);background-color:rgba(128, 128, 128, 0.379);}
-        
-        #portedocbt{color: white; font-size : 10pt;width: 120px;text-align: center;height: 25px;padding-top: 10px;
-            background-color: black;border-bottom: 5px solid rgba(255, 0, 0, 0);}
-        #portedocbt:hover{border-bottom: 5px solid rgb(255, 0, 0);font-weight: bold;
-            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.479);background-color:rgba(128, 128, 128, 0.379);}
-        
-        #parametragebt{color: white; font-size : 10pt;width: 120px;text-align: center;height: 25px;padding-top: 10px;
-            background-color: black;border-bottom: 5px solid rgba(255, 0, 0, 0);}
-        #parametragebt:hover{border-bottom: 5px solid rgb(255, 0, 0);font-weight: bold;
-            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.479);background-color:rgba(128, 128, 128, 0.379);}
-
-
-        #ladate{display: none;}
+@media screen and (min-width : 721px) and (max-width : 900px){
+     
+     #ladate{display: none;}
 
     }
 
@@ -433,7 +394,7 @@ animation-direction: alternate;}
     #boxsommaire
     {
         display: none;flex-wrap: wrap;
-        width: 100%;height:750px;position: absolute;top: 0%;left: 0%;
+        width: 100%;position: absolute;top: 0%;left: 0%;
         margin-top:70px;justify-content: space-around;align-content: space-around;
     }
         .boxsdusommaire{width: 98%;height: 150px;background-color:  rgba(255, 255, 255, 0.224);}
@@ -442,11 +403,24 @@ animation-direction: alternate;}
         .boxsommaire0.opaque{margin-left: 0px;transform: scale(1);opacity: 1;}
         .boxsommaire1{transition-duration: 0.8s;margin-left: 0px;transform: scale(1); opacity: 1;} 
         .boxsommaire1.opaque{margin-left: -400px;transform: scale(0);opacity: 0;}
-        
+    
+        #boxinitiale{width: 100%;
+            border-radius: 20px;background-color: rgba(255, 255, 255, 0.224);
+            margin: 10px;display: flex;flex-direction: column;
+            align-content: space-around;justify-content: space-between;align-items: center;
+            }
+            .boxinitilepartie1{width: 100%;height: 300px;background-image: url(photos/slogan.png);
+                background-repeat: no-repeat;background-size: contain;background-position: center}
+            .boxinitilepartie2{width: 100%;}
+            #boxinitiale p {font-size: 10pt;text-align: justify;width: 100%;}
+
+
+
+
         #boxblocnotes
         {
             display: flex; flex-wrap: wrap;justify-content: space-around;align-content: space-around;
-            width: 96%;height: 1300px;
+            width: 96%;
             margin-top: 70px;position: absolute;top: 0%;left: 2%;
             background-color: rgba(255, 255, 255, 0.384);border-radius: 20px;box-shadow: 0px 1  px 6px rgba(0, 0, 0, 0.63);
 
