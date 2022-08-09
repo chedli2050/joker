@@ -190,13 +190,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .photopresentation1:hover {transform: rotate(12deg);transform: scale();}
 
     .boxtextepresentationbt{width: fit-content;height: 220px;margin-left: 10px;}
-    .textepresentationbt{color: white;font-size: 28pt;font-weight: bold;
+    .textepresentationproduitbt{color: white;font-size: 28pt;font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;display: inline-block;text-shadow: 1px 1px 7px grey;
         position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);}
 
 
 #boxlivresbt{width: 48%;height: 300px;border-radius: 20px;background-color: rgba(255, 255, 255, 0.224);
-    display: flex;justify-content: center;flex-wrap: wrap;align-content: center;margin: 10px;overflow: hidden;}
+    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 10px;
+    color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
 #boxlivresbt:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
 
 
@@ -204,30 +205,29 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .photonosproduitsbt1:hover {transform: rotate(12deg);}
     
     .boxtextenosproduitsbt{width: fit-content;height: 220px;margin-left: 10px;}
-    .textenosproduitsbt{color: white;font-size: 28pt;font-weight: bold;
+    .textepresentationproduitbt{color: white;font-size: 28pt;font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;display: inline-block;text-shadow: 1px 1px 7px grey;
         position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);}
 
 #boxflyersbt{width: 48%;height: 300px;border-radius: 20px;background-color: rgba(255, 255, 255, 0.224);
-    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;margin: 10px;
-    color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    }
+    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 10px;
+    color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
+
     #boxflyersbt:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
 
     .photoutilisateur1{width: 250px;height: 220px;margin-right: 10px;transition: 5s;}
     .photoutilisateur1:hover {transform: rotate(12deg);transform: scale(3);}
 
     .boxtexteutilisateurbt{width: fit-content;height: 220px;margin-left: 10px;}
-    .texteutilisateurbt{color: white;font-size: 28pt;font-weight: bold;
+    .texteespacebt{color: white;font-size: 28pt;font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;display: block;text-shadow: 1px 1px 7px grey;
-        position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+        position: relative;top: 50%;left: 50%;transform: translate(-50%,-89%);}
 
 
 
 #boxportedocbt{width: 48%;height: 300px;border-radius: 20px;background-color: rgba(255, 255, 255, 0.224);
-    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;margin: 10px;
-    color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;}
+    display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 10px;
+    color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
     #boxportedocbt:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
 
 
@@ -235,9 +235,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .photoclient1:hover {transform: rotate(12deg);transform: scale(3);}
 
     .boxtexteclientbt{width: fit-content;height: 220px;margin-left: 10px;}
-    .texteutilisateurbt{color: white;font-size: 28pt;font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;display: block;text-shadow: 1px 1px 7px grey;
-        position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+
 
 
 
@@ -437,7 +435,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
         #ladate{font-size: 14pt;font-weight: bold;color: grey;display: block; position: absolute; right: 15px; top: 22px;}
 
 
-
+/*Box du sommaire responsive 720px          Box du sommaire responsive 720px        Box du sommaire responsive 720px */
 
     #boxsommaire
     {
@@ -463,10 +461,45 @@ body {font-family: Arial, Helvetica, sans-serif;}
             .boxinitilepartie2{width: 100%;height: 100px;display: none;}
             #boxinitiale p {font-size: 10pt;text-align: justify;width: 100%;}
 
+
+
+        .photopresentation1{width: 175px;height: 154px;margin-right: 10px;transition: 5s;}
+        .photonosproduitsbt1{width: 175px;height: 154px;margin-right: 10px;transition: 5s;}
+        .photoutilisateur1{width: 175px;height: 154px;margin-right: 10px;transition: 5s;}
+        .photoclient1{width: 175px;height: 154px;margin-right: 10px;transition: 5s;}
+
+
+
+
+
+            
             #boxblocbt{width: 100%;}
             #boxlivresbt{width: 100%;}
             #boxflyersbt{width: 100%;}
             #boxportedocbt{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+/*FIN Box du sommaire responsive 720px     FIN Box du sommaire responsive 720px   FIN Box du sommaire responsive 720px */
+
+
+
+
+
+
+
+
+
+
+
 
 
         #boxblocnotes
