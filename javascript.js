@@ -75,7 +75,8 @@ if (menu2.className == "menu20")
     menu2.className = "menu21"
     menu2.style.width = "fit-content"
     menu2.style.height ="380px"
-    menu2.style.boxShadow = "1px 1px 7px rgba(255, 255, 255, 0.423)"
+    menu2.style.boxShadow = "1px 3px 12px rgba(0, 0, 0, 0.423)"
+    menu2.style.backgroundColor="rgba(0, 0, 0, 0.723)"
     
 }
 else
@@ -83,7 +84,8 @@ else
     menu2.className ="menu20"
     menu2.style.width = "35%"
     menu2.style.height ="60px"
-    menu2.style.boxShadow = "1px 1px 8px rgba(255, 255, 255, 0)"
+    menu2.style.boxShadow = "1px 1px 8px rgba(0, 0, 0, 0)"
+    menu2.style.backgroundColor="black"
 };
 }
 
