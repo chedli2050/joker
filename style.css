@@ -169,7 +169,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     margin: 10px;display: flex;justify-content: space-around;overflow: hidden;
     }
 
-#boxinitiale p {font-size: 10pt;text-align: justify;width: 90%;}
+#boxinitiale p {font-size: 10pt;text-align: justify;width: 90%;line-height: 0px;}
 #boxinitiale:hover{background-color: rgba(255, 255, 255, 0.384);box-shadow: 0px 0px 10px gray;}
 
 
