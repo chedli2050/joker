@@ -191,15 +191,112 @@ boxparametrage.className = "boxparametrage1"
 
 boxblocbt.addEventListener('click',ouvrirblocnotes);
 boxblocbt.addEventListener('click',remonteenhaut);
+boxblocbt.addEventListener('mouseover',animationboutonpresentation);
+boxblocbt.addEventListener('mouseout',animationboutonpresentation2);
+
+var fondbtpresentation = document.getElementById('fondbtpresentation');
+var textepresentationbt = document.getElementById('textepresentationbt');
+var photopresentation1 = document.getElementById('photopresentation1');
+var boxtextepresentationbt = document.getElementById('boxtextepresentationbt');
+
+function animationboutonpresentation()
+{
+    fondbtpresentation.style.left = "-100px"
+    textepresentationbt.style.color = "white"
+}
+
+function animationboutonpresentation2()
+{
+    fondbtpresentation.style.left = "-1000px"
+    textepresentationbt.style.color = "rgb(99, 99, 99)"
+}
+
+
+
 
 boxlivresbt.addEventListener('click',ouvrirlivres);
 boxlivresbt.addEventListener('click',remonteenhaut);
 
+boxlivresbt.addEventListener('mouseover',animationboutonnosproduits);
+boxlivresbt.addEventListener('mouseout',animationboutonnosproduits2);
+
+var fondbtnosproduit = document.getElementById('fondbtnosproduit');
+var texteproduitbt = document.getElementById('texteproduitbt');
+
+function animationboutonnosproduits()
+{
+    fondbtnosproduit.style.left = "-100px"
+    texteproduitbt.style.color = "white"
+}
+
+function animationboutonnosproduits2()
+{
+    fondbtnosproduit.style.left = "-1000px"
+    texteproduitbt.style.color = "rgb(99, 99, 99)"
+}
+
+
+
 boxflyersbt.addEventListener('click',ouvrirflyers);
 boxflyersbt.addEventListener('click',remonteenhaut);
+boxflyersbt.addEventListener('mouseover',animationboutonutilisateur);
+boxflyersbt.addEventListener('mouseout',animationboutonutilisateur2);
+
+var fondbtutilisateur = document.getElementById('fondbtutilisateur');
+var textutil1 = document.getElementById('textutil1');
+var textutil2 = document.getElementById('textutil2');
+
+function animationboutonutilisateur()
+{
+    fondbtutilisateur.style.left = "-100px"
+    textutil1.style.color = "white"
+    textutil2.style.color = "white"
+}
+
+function animationboutonutilisateur2()
+{
+    fondbtutilisateur.style.left = "-1000px"
+    textutil1.style.color = "rgb(99, 99, 99)"
+    textutil2.style.color = "rgb(99, 99, 99)"
+}
+
+
+
+
+
+
+
+
 
 boxportedocbt.addEventListener('click',ouvrirporte);
 boxportedocbt.addEventListener('click',remonteenhaut);
+boxportedocbt.addEventListener('mouseover',animationboutonclt);
+boxportedocbt.addEventListener('mouseout',animationboutonclt2);
+
+var fondbtclient = document.getElementById('fondbtclient');
+var textclt1 = document.getElementById('textclt1');
+var textclt2 = document.getElementById('textclt2');
+
+function animationboutonclt()
+{
+    fondbtclient.style.left = "-100px"
+    textclt1.style.color = "white"
+    textclt2.style.color = "white"
+}
+
+function animationboutonclt2()
+{
+    fondbtclient.style.left = "-1000px"
+    textclt1.style.color = "rgb(99, 99, 99)"
+    textclt2.style.color = "rgb(99, 99, 99)"
+}
+
+
+
+
+
+
+
 
 var sommairebt = document.getElementById('sommairebt');
 var blocbt = document.getElementById('blocbt');
@@ -271,6 +368,7 @@ function affichebtscroll(){
 }
 
 window.addEventListener('scroll',affichebtscroll);
+window.addEventListener('scroll',petiteiconescroll);
 
 var bthaut = document.getElementById('bthaut');
 var hautdelapage = document.getElementById('hautdelapage');
@@ -283,4 +381,9 @@ function remonteenhautsmooth()
 function remonteenhaut()
 {
     hautdelapage.scrollIntoView();
+}
+
+function petiteiconescroll()
+{
+    if (window.innerWidth <= 720){}
 }
