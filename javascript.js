@@ -207,7 +207,7 @@ function animationboutonpresentation()
 
 function animationboutonpresentation2()
 {
-    fondbtpresentation.style.left = "-1000px"
+    fondbtpresentation.style.left = "-950px"
     textepresentationbt.style.color = "rgb(99, 99, 99)"
 }
 
@@ -231,7 +231,7 @@ function animationboutonnosproduits()
 
 function animationboutonnosproduits2()
 {
-    fondbtnosproduit.style.left = "-1000px"
+    fondbtnosproduit.style.left = "-950px"
     texteproduitbt.style.color = "rgb(99, 99, 99)"
 }
 
@@ -255,7 +255,7 @@ function animationboutonutilisateur()
 
 function animationboutonutilisateur2()
 {
-    fondbtutilisateur.style.left = "-1000px"
+    fondbtutilisateur.style.left = "-950px"
     textutil1.style.color = "rgb(99, 99, 99)"
     textutil2.style.color = "rgb(99, 99, 99)"
 }
@@ -286,7 +286,7 @@ function animationboutonclt()
 
 function animationboutonclt2()
 {
-    fondbtclient.style.left = "-1000px"
+    fondbtclient.style.left = "-950px"
     textclt1.style.color = "rgb(99, 99, 99)"
     textclt2.style.color = "rgb(99, 99, 99)"
 }
