@@ -383,7 +383,62 @@ function remonteenhaut()
     hautdelapage.scrollIntoView();
 }
 
+
+
+
+
+var photonosproduitsbt1 = document.getElementById('photonosproduitsbt1');
+var photoutilisateur1 = document.getElementById('photoutilisateur1');
+var photoclient1 = document.getElementById('photoclient1');
+
+
+
+
+
 function petiteiconescroll()
 {
-    if (window.innerWidth <= 720){}
+    scrollval = window.scrollY
+    ladate.innerText=scrollval
+    if (window.innerWidth <= 720)
+{
+    if (scrollval > 5)
+    {
+        photonosproduitsbt1.style.width ="150px"
+        photonosproduitsbt1.style.height="132px"
+        texteproduitbt.style.fontSize="26pt"
+    }
+    else{
+        photonosproduitsbt1.style.width ="62.5px"
+        photonosproduitsbt1.style.height="55px"
+        texteproduitbt.style.fontSize="10pt"
+        }
+    if (scrollval > 222)
+    {
+        photoutilisateur1.style.width ="150px"
+        photoutilisateur1.style.height="132px"
+        textutil1.style.fontSize="26pt"
+        textutil2.style.fontSize="26pt"
+    }
+    else{
+        photoutilisateur1.style.width ="62.5px"
+        photoutilisateur1.style.height="55px"
+        textutil1.style.fontSize="10pt"
+        textutil2.style.fontSize="10pt"
+
+        }
+    if (scrollval > 480)
+    {
+        photoclient1.style.width ="150px"
+        photoclient1.style.height="132px"
+        textclt1.style.fontSize="26pt"
+        textclt2.style.fontSize="26pt"
+    }
+    else{
+        photoclient1.style.width ="62.5px"
+        photoclient1.style.height="55px"
+        textclt1.style.fontSize="10pt"
+        textclt2.style.fontSize="10pt"
+        }
+
+}
 }
