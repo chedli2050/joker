@@ -180,7 +180,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .boxsommaire1.opaque{margin-left: -400px;transform: scale(0);opacity: 0;}
 
 #boxinitiale{width: 100%;height: 150px;
-    background-color: rgba(217, 217, 217, 0.9);
+    background-color: rgba(128, 128, 128, 0.166);
     display: flex;justify-content: center;overflow: hidden;margin-bottom: 10px;align-items: center;
     }
 
@@ -233,8 +233,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
         display: inline-block;transition: 0.2s;
         position: relative;top: 50%;left: 50%;transform: translate(-50%,-50%);}
 
-        .fondbtpresentation{background-color: rgb(184, 184, 184);display: inline-block;transition: 0.4s;         
-            position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);}
+        .fondbtpresentation{background-color: rgb(200, 200, 200);display: inline-block;transition: 0.4s;         
+            position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);
+        box-shadow: 3px 0px 6px rgb(208, 208, 208);
+        }
 
 
 
@@ -250,7 +252,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
     
     #fondbtnosproduit{background-color: red;display: inline-block;transition: 0.5s;       z-index: -1;
-        position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);}
+        position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);
+        box-shadow: 3px 0px 6px rgb(208, 208, 208);
+    }
 
     .boxtextenosproduitsbt{width: fit-content;height: 220px;margin-left: 10px;}
  
@@ -265,13 +269,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 
     #fondbtutilisateur{background-color: rgb(0, 125, 203);display: inline-block;transition: 0.5s;z-index: -2;         
-        position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);}
+        position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);
+        box-shadow: 3px 0px 6px rgb(208, 208, 208);
+    }
 
     
     .boxtexteutilisateurbt{width: fit-content;height: 220px;margin-left: 10px;}
     #textclt2, #textclt1, #textutil1, #textutil2 {color: rgb(99, 99, 99);font-size: 26pt;font-weight: bold;
         font-family: 'Nunito', sans-serif;
-        display: block;
+        display: block;margin-bottom: -8px;
         position: relative;top: 50%;left: 50%;transform: translate(-50%,-89%);}
 
         /* text-shadow: 1px 1px 7px grey; */
@@ -285,7 +291,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
     #photoclient1{width: 250px;height: 220px;margin-right: 10px;transition: 0.3s;z-index: 102;}
 
     .fondbtclient{background-color: green;display: inline-block;transition: 0.5s;         
-        position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);}
+        position: absolute;width: 1000px;height: 1000px;top: -200px;left: -1000px;transform: rotate(10deg);
+        box-shadow: 3px 0px 6px rgb(208, 208, 208);
+    }
     .fondbtclient:hover{left: -100px;}  
 
 

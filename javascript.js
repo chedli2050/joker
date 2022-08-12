@@ -369,6 +369,7 @@ function affichebtscroll(){
 
 window.addEventListener('scroll',affichebtscroll);
 window.addEventListener('scroll',petiteiconescroll);
+window.addEventListener('resize',petiteiconescroll);
 
 var bthaut = document.getElementById('bthaut');
 var hautdelapage = document.getElementById('hautdelapage');
@@ -398,7 +399,7 @@ var photoclient1 = document.getElementById('photoclient1');
 function petiteiconescroll()
 {
     scrollval = window.scrollY
-    ladate.innerText=scrollval
+  
     if (window.innerWidth <= 720)
 {
     if (scrollval > 5)
@@ -439,6 +440,23 @@ function petiteiconescroll()
         textclt1.style.fontSize="10pt"
         textclt2.style.fontSize="10pt"
         }
+
+}
+else
+{
+    photonosproduitsbt1.style.width ="200px"
+    photonosproduitsbt1.style.height="176px"
+    texteproduitbt.style.fontSize="26pt" 
+
+    photoutilisateur1.style.width ="200px"
+    photoutilisateur1.style.height="176px"
+    textutil1.style.fontSize="26pt"
+    textutil2.style.fontSize="26pt"
+
+    photoclient1.style.width ="200px"
+    photoclient1.style.height="176px"
+    textclt1.style.fontSize="26pt"
+    textclt2.style.fontSize="26pt"
 
 }
 }
