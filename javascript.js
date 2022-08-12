@@ -370,6 +370,7 @@ function affichebtscroll(){
 window.addEventListener('scroll',affichebtscroll);
 window.addEventListener('scroll',petiteiconescroll);
 window.addEventListener('resize',petiteiconescroll);
+window.addEventListener('resize',remonteenhaut);
 
 var bthaut = document.getElementById('bthaut');
 var hautdelapage = document.getElementById('hautdelapage');
