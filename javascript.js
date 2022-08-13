@@ -407,7 +407,7 @@ function petiteiconescroll()
     {
         photonosproduitsbt1.style.width ="150px"
         photonosproduitsbt1.style.height="132px"
-        texteproduitbt.style.fontSize="26pt"
+        texteproduitbt.style.fontSize="24pt"
     }
     else{
         photonosproduitsbt1.style.width ="137.5px"
@@ -418,8 +418,8 @@ function petiteiconescroll()
     {
         photoutilisateur1.style.width ="150px"
         photoutilisateur1.style.height="132px"
-        textutil1.style.fontSize="26pt"
-        textutil2.style.fontSize="26pt"
+        textutil1.style.fontSize="24pt"
+        textutil2.style.fontSize="24pt"
     }
     else{
         photoutilisateur1.style.width ="62.5px"
@@ -432,8 +432,8 @@ function petiteiconescroll()
     {
         photoclient1.style.width ="150px"
         photoclient1.style.height="132px"
-        textclt1.style.fontSize="26pt"
-        textclt2.style.fontSize="26pt"
+        textclt1.style.fontSize="24pt"
+        textclt2.style.fontSize="24pt"
     }
     else{
         photoclient1.style.width ="62.5px"
@@ -447,17 +447,17 @@ else
 {
     photonosproduitsbt1.style.width ="200px"
     photonosproduitsbt1.style.height="176px"
-    texteproduitbt.style.fontSize="26pt" 
+    texteproduitbt.style.fontSize="24pt" 
 
     photoutilisateur1.style.width ="200px"
     photoutilisateur1.style.height="176px"
-    textutil1.style.fontSize="26pt"
-    textutil2.style.fontSize="26pt"
+    textutil1.style.fontSize="24pt"
+    textutil2.style.fontSize="24pt"
 
     photoclient1.style.width ="200px"
     photoclient1.style.height="176px"
-    textclt1.style.fontSize="26pt"
-    textclt2.style.fontSize="26pt"
+    textclt1.style.fontSize="24pt"
+    textclt2.style.fontSize="24pt"
 
 }
 }
