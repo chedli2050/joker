@@ -403,15 +403,15 @@ function petiteiconescroll()
   
     if (window.innerWidth <= 720)
 {
-    if (scrollval > 5)
+    if (scrollval > 1)
     {
         photonosproduitsbt1.style.width ="150px"
         photonosproduitsbt1.style.height="132px"
         texteproduitbt.style.fontSize="26pt"
     }
     else{
-        photonosproduitsbt1.style.width ="62.5px"
-        photonosproduitsbt1.style.height="55px"
+        photonosproduitsbt1.style.width ="125px"
+        photonosproduitsbt1.style.height="110px"
         texteproduitbt.style.fontSize="10pt"
         }
     if (scrollval > 222)
