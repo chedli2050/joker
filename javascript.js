@@ -57,7 +57,7 @@ else if (mois == 12){moisl="Décembre"};
 
 
 var ladate = document.getElementById('ladate');
-ladate.innerHTML =  jour + " " + moisl + " " + annee + " V1";
+ladate.innerHTML =  jour + " " + moisl + " " + annee + " v2";
 
 //Fin incrementation Date
 
@@ -131,6 +131,7 @@ boxlivres.className = "boxlivres0"
 boxflyers.className = "boxflyers0"
 boxporte.className = "boxporte0"
 boxparametrage.className = "boxparametrage0"
+btretour.className="btreour0"
 }
 
 
@@ -216,6 +217,8 @@ function animationboutonpresentation2()
 
 boxlivresbt.addEventListener('click',ouvrirlivres);
 boxlivresbt.addEventListener('click',remonteenhaut);
+boxlivresbt.addEventListener('click',afficheretoursommaire);
+
 
 boxlivresbt.addEventListener('mouseover',animationboutonnosproduits);
 boxlivresbt.addEventListener('mouseout',animationboutonnosproduits2);
@@ -239,6 +242,7 @@ function animationboutonnosproduits2()
 
 boxflyersbt.addEventListener('click',ouvrirflyers);
 boxflyersbt.addEventListener('click',remonteenhaut);
+boxflyersbt.addEventListener('click',afficheretoursommaire);
 boxflyersbt.addEventListener('mouseover',animationboutonutilisateur);
 boxflyersbt.addEventListener('mouseout',animationboutonutilisateur2);
 
@@ -270,6 +274,7 @@ function animationboutonutilisateur2()
 
 boxportedocbt.addEventListener('click',ouvrirporte);
 boxportedocbt.addEventListener('click',remonteenhaut);
+boxportedocbt.addEventListener('click',afficheretoursommaire);
 boxportedocbt.addEventListener('mouseover',animationboutonclt);
 boxportedocbt.addEventListener('mouseout',animationboutonclt2);
 
@@ -310,18 +315,23 @@ sommairebt.addEventListener('click',remonteenhaut);
 
 blocbt.addEventListener('click',ouvrirblocnotes);
 blocbt.addEventListener('click',remonteenhaut);
+blocbt.addEventListener('click',afficheretoursommaire);
 
 livresbt.addEventListener('click',ouvrirlivres);
 livresbt.addEventListener('click',remonteenhaut);
+livresbt.addEventListener('click',afficheretoursommaire);
 
 flyersbt.addEventListener('click',ouvrirflyers);
 flyersbt.addEventListener('click',remonteenhaut);
+flyersbt.addEventListener('click',afficheretoursommaire);
 
 portedocbt.addEventListener('click',ouvrirporte);
 portedocbt.addEventListener('click',remonteenhaut);
+portedocbt.addEventListener('click',afficheretoursommaire);
 
 parametragebt.addEventListener('click',ouvrirparametrage);
 parametragebt.addEventListener('click',remonteenhaut);
+parametragebt.addEventListener('click',afficheretoursommaire);
 
 
 var sommairebtm = document.getElementById('sommairebtm');
@@ -336,24 +346,46 @@ sommairebtm.addEventListener('click',remonteenhaut);
 
 blocbtm.addEventListener('click',ouvrirblocnotes);
 blocbtm.addEventListener('click',remonteenhaut);
+blocbtm.addEventListener('click',afficheretoursommaire);
 
 livresbtm.addEventListener('click',ouvrirlivres);
 livresbtm.addEventListener('click',remonteenhaut);
+livresbtm.addEventListener('click',afficheretoursommaire);
 
 flyersbtm.addEventListener('click',ouvrirflyers);
 flyersbtm.addEventListener('click',remonteenhaut);
+flyersbtm.addEventListener('click',afficheretoursommaire);
 
 portedocbtm.addEventListener('click',ouvrirporte);
 portedocbtm.addEventListener('click',remonteenhaut);
+portedocbtm.addEventListener('click',afficheretoursommaire);
 
 parametragebtm.addEventListener('click',ouvrirparametrage);
 parametragebtm.addEventListener('click',remonteenhaut);
+parametragebtm.addEventListener('click',afficheretoursommaire);
 
 //    *************************************************Fin ouverture des fenetres Boxes...*************************
 
+//bounton pour retour vers le sommaire
+
+
+var btretour = document.getElementById('btretour');
+btretour.addEventListener('click',ouvrirsommaire);
+
+
+function afficheretoursommaire()
+{
+    btretour.className = "btretour1"
+}
+function masqueretoursommaire()
+{
+    btretour.className = "btretour0"
+}
+boxblocbt.addEventListener('click',afficheretoursommaire);
 
 
 //bounton pour remonter vers le haut
+
 
 
 var scrollval = 0;
@@ -364,13 +396,11 @@ function affichebtscroll(){
     {bthaut.className="bthaut1"}
     else {bthaut.className="bthaut0"}
 
-
 }
 
 window.addEventListener('scroll',affichebtscroll);
 window.addEventListener('scroll',petiteiconescroll);
 window.addEventListener('resize',petiteiconescroll);
-// window.addEventListener('resize',remonteenhaut);
 
 var bthaut = document.getElementById('bthaut');
 var hautdelapage = document.getElementById('hautdelapage');
@@ -385,7 +415,7 @@ function remonteenhaut()
     hautdelapage.scrollIntoView();
 }
 
-
+//Fin bounton pour remonter vers le haut
 
 
 
