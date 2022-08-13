@@ -57,7 +57,7 @@ else if (mois == 12){moisl="Décembre"};
 
 
 var ladate = document.getElementById('ladate');
-ladate.innerHTML =  jour + " " + moisl + " " + annee + " V0";
+ladate.innerHTML =  jour + " " + moisl + " " + annee + " V1";
 
 //Fin incrementation Date
 
@@ -412,7 +412,7 @@ function petiteiconescroll()
     else{
         photonosproduitsbt1.style.width ="137.5px"
         photonosproduitsbt1.style.height="121px"
-        texteproduitbt.style.fontSize="10pt"
+        texteproduitbt.style.fontSize="5pt"
         }
     if (scrollval > 222)
     {
@@ -424,8 +424,8 @@ function petiteiconescroll()
     else{
         photoutilisateur1.style.width ="62.5px"
         photoutilisateur1.style.height="55px"
-        textutil1.style.fontSize="10pt"
-        textutil2.style.fontSize="10pt"
+        textutil1.style.fontSize="5pt"
+        textutil2.style.fontSize="5pt"
 
         }
     if (scrollval > 480)
@@ -438,8 +438,8 @@ function petiteiconescroll()
     else{
         photoclient1.style.width ="62.5px"
         photoclient1.style.height="55px"
-        textclt1.style.fontSize="10pt"
-        textclt2.style.fontSize="10pt"
+        textclt1.style.fontSize="5pt"
+        textclt2.style.fontSize="5pt"
         }
 
 }
