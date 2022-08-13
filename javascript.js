@@ -410,8 +410,8 @@ function petiteiconescroll()
         texteproduitbt.style.fontSize="26pt"
     }
     else{
-        photonosproduitsbt1.style.width ="125px"
-        photonosproduitsbt1.style.height="110px"
+        photonosproduitsbt1.style.width ="137.5px"
+        photonosproduitsbt1.style.height="121px"
         texteproduitbt.style.fontSize="10pt"
         }
     if (scrollval > 222)
