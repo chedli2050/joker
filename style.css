@@ -182,6 +182,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 #boxinitiale{width: 100%;height: 150px;
     background-color: white;
     display: flex;justify-content: center;overflow: hidden;margin-bottom: 10px;align-items: center;
+    box-shadow: 0px -3px 9px grey;
     }
 
 #boxinitiale p {font-size: 10pt;text-align: justify;width: 90%;line-height: 0px;}
@@ -192,7 +193,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                         background-repeat: no-repeat;background-size: contain;background-position: center;
                         
                         animation-name: Animationlogo;
-                        animation-duration: 10s;
+                        animation-duration: 14s;
                         animation-timing-function: linear;
                         animation-iteration-count: infinite;
                         animation-direction: alternate;      
@@ -204,11 +205,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
                 
                         0%  {background-image: url(photos/slogan.png);transform: scale(1);}
                         47% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 1;}
-                        49% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 0;}
-                        50% {background-image: url(photos/logojokercomplet.png);transform: scale(0.6);opacity: 1;}
-                        100% {background-image: url(photos/logojokercomplet.png);transform: scale(0.6);}
+                        49% {background-image: url(photos/slogan.png);transform: scale(0.5);opacity: 0;}
+                        51% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);opacity: 1;}
+                        100% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);}
                     }
-.boxinitilepartie2{width: 74%;height: 170px;border-left: 1px solid rgba(80, 80, 80, 0.175); padding-left: 30px;}
+.boxinitilepartie2{width: 74%;height: 150px; padding-left: 30px;}
 
 
 
@@ -218,7 +219,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
 
 
-#boxblocbt:hover{box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.6);}
+#boxblocbt:hover{box-shadow: 1.5px 1.5px 6px rgb(112, 112, 112);}
 
     #photopresentation1{width: 200px;height: 176px;margin-right: 10px;transition: 0.5s;
         animation-name: animationpresentation;
@@ -260,7 +261,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 8px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
 
-#boxlivresbt:hover{box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.6);}
+#boxlivresbt:hover{box-shadow: 1.5px 1.5px 6px rgb(112, 112, 112);}
 
 
 
@@ -296,7 +297,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 8px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
 
-    #boxflyersbt:hover{box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.6);}
+    #boxflyersbt:hover{box-shadow: 1.5px 1.5px 6px rgb(112, 112, 112);}
 
     #photoutilisateur1{width: 200px;height: 176px;margin-right: 10px;transition: 0.3s;z-index: 101;
         animation-name: animationutilisateur;
@@ -335,7 +336,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 #boxportedocbt{width: 40%;height: 240px;border-radius: 20px;background-color:rgba(217, 217, 217, 0.3);position: relative;
     display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 8px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
-    #boxportedocbt:hover{box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.6);}
+    #boxportedocbt:hover{box-shadow: 1.5px 1.5px 6px rgb(112, 112, 112);}
 
 
     #photoclient1{width: 200px;height: 176px;margin-right: 10px;transition: 0.3s;z-index: 102;
