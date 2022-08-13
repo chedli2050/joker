@@ -194,7 +194,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                         background-repeat: no-repeat;background-size: contain;background-position: center;
                         
                         animation-name: Animationlogo;
-                        animation-duration: 14s;
+                        animation-duration: 20s;
                         animation-timing-function: ease;
                         animation-iteration-count: infinite;
                         animation-direction: normal;      
@@ -205,11 +205,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
                     {
                 
                         0%  {background-image: url(photos/slogan.png);transform: scale(0);opacity: 0;}
-                        2% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 1;}
-                        47% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 1;}
+                        1% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 1;}
+                        48% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 1;}
                         49% {background-image: url(photos/slogan.png);transform: scale(0);opacity: 0;}
-                        51% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);opacity: 1;}
-                        98% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);opacity: 1;}
+                        50% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);opacity: 1;}
+                        99% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);opacity: 1;}
                         100% {background-image: url(photos/logojokercomplet.png);transform: scale(0);opacity: 0;}
                     }
 .boxinitilepartie2{width: 74%;height: 150px; padding-left: 30px;}
@@ -225,24 +225,27 @@ body {font-family: Arial, Helvetica, sans-serif;}
 #boxblocbt:hover{box-shadow: 1.5px 1.5px 6px rgb(112, 112, 112);}
 
     #photopresentation1{width: 200px;height: 176px;margin-right: 10px;transition: 0.5s;
-                        background-image: url(photos/presentation.png);background-size: cover;
+                        background-image: url(photos/presentation.png);background-size: contain;
         animation-name: animationpresentation;
-        animation-duration: 10s;
+        animation-duration: 20s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         animation-direction: normal;      
 
         }
         
- /* @keyframes animationpresentation
+ @keyframes animationpresentation
     {
 
-        0%  {margin-right: 10px}
-        18% {transform: scale(1) rotate(0deg);margin-right: 10px}
-        20% {transform: scale(0.6) rotate(5deg) ;margin-right: 10px}
-        22% {transform: scale(1) rotate(0deg);margin-right: 10px}
-        100% {transform: scale(1);margin-right: 10px}
-    } */
+        0%  {background-image: url(photos/presentation.png);transform: rotateY(90deg);}
+        1% {background-image: url(photos/presentation.png);transform: rotateY(0deg);}
+        48% {background-image: url(photos/presentation.png);transform: rotateY(0deg);}
+        49% {background-image: url(photos/presentation.png);transform: rotateY(90deg);}
+        50% {background-image: url(photos/presentation2.png);transform: rotateY(90deg);}
+        51% {background-image: url(photos/presentation2.png);transform: rotateY(0deg);}
+        99% {background-image: url(photos/presentation2.png);transform: rotateY(0deg);}
+        100% {background-image: url(photos/presentation2.png);transform: rotateY(90deg);}
+    }
 
 
 
