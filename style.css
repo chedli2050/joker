@@ -774,21 +774,21 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
         
     #boxblocbt{width: 90%;height: 200px;
               display: flex;flex-direction:  column;align-items: center;justify-content: center;
-                  overflow: hidden;}
+                  overflow: hidden;box-shadow: 0.4px 1.5px 5px rgb(175, 175, 175);}
 
 
             .boxtextepresentationbt{width: fit-content;height: fit-content;margin: 5px;}
 
     #boxlivresbt{width: 90%;height: 200px;
                  display: flex;flex-direction:  column;align-items: center;justify-content: center;
-                 overflow: hidden;}
+                 overflow: hidden;box-shadow: 0.4px 1.5px 5px rgb(175, 175, 175);}
             .boxtextenosproduitsbt{width: fit-content;height: fit-content;margin: 5px;}
 
 
 
     #boxflyersbt{width: 90%;height: 200px;
         display: flex;flex-direction:  column;align-items: center;justify-content: center;
-        overflow: hidden;}
+        overflow: hidden;box-shadow: 0.4px 1.5px 5px rgb(175, 175, 175);}
 
             .boxtexteutilisateurbt{width: fit-content;height: fit-content;margin: 5px;}
 
@@ -796,7 +796,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
     #boxportedocbt{width: 90%;height: 200px;
         display: flex;flex-direction:  column;align-items: center;justify-content: center;
-        overflow: hidden;}
+        overflow: hidden;box-shadow: 0.4px 1.5px 5px rgb(175, 175, 175);}
 
         .boxtexteclientbt{width: fit-content;height: fit-content;margin: 5px;}
 
