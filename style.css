@@ -930,6 +930,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
         .foot3
         {
             padding-left: 10px;
+            margin-top: 10px;
             grid-area: foot3;
         }
         .foot3 h2 {font-size: 16pt; font-weight: bold;color: rgb(45, 45, 45);margin-bottom: -10px;margin-top: 5px;
