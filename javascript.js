@@ -133,6 +133,7 @@ boxflyers.className = "boxflyers0"
 boxporte.className = "boxporte0"
 boxparametrage.className = "boxparametrage0"
 btretour.className="btreour0"
+hautdelapage.scrollIntoView({behavior:"smooth"});
 }
 
 
