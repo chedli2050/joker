@@ -134,9 +134,11 @@ boxporte.className = "boxporte0"
 boxparametrage.className = "boxparametrage0"
 btretour.className="btreour0"
 hautdelapage.scrollIntoView({behavior:"smooth"});
+carrenoir.className="carrenoir0";
 }
 
 
+var carrenoir = document.getElementById('carrenoir');
 
 
 function ouvrirblocnotes()
@@ -147,6 +149,8 @@ boxlivres.className = "boxlivres0"
 boxflyers.className = "boxflyers0"
 boxporte.className = "boxporte0"
 boxparametrage.className = "boxparametrage0"
+carrenoir.className="carrenoir1";
+
 }
 
 
