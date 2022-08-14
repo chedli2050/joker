@@ -58,7 +58,7 @@ else if (mois == 12){moisl="Décembre"};
 
 
 var ladate = document.getElementById('ladate');
-ladate.innerHTML =  jour + " " + moisl + " " + annee + " v2";
+ladate.innerHTML =  jour + " " + moisl + " " + annee + " v3";
 
 //Fin incrementation Date
 
@@ -439,7 +439,7 @@ function petiteiconescroll()
     {
         photonosproduitsbt1.style.width ="150px"
         photonosproduitsbt1.style.height="132px"
-        texteproduitbt.style.fontSize="24pt"
+        texteproduitbt.style.fontSize="20pt"
     }
     else{
         photonosproduitsbt1.style.width ="137.5px"
@@ -450,8 +450,8 @@ function petiteiconescroll()
     {
         photoutilisateur1.style.width ="150px"
         photoutilisateur1.style.height="132px"
-        textutil1.style.fontSize="24pt"
-        textutil2.style.fontSize="24pt"
+        textutil1.style.fontSize="20pt"
+        textutil2.style.fontSize="20pt"
     }
     else{
         photoutilisateur1.style.width ="62.5px"
@@ -464,8 +464,8 @@ function petiteiconescroll()
     {
         photoclient1.style.width ="150px"
         photoclient1.style.height="132px"
-        textclt1.style.fontSize="24pt"
-        textclt2.style.fontSize="24pt"
+        textclt1.style.fontSize="20pt"
+        textclt2.style.fontSize="20pt"
     }
     else{
         photoclient1.style.width ="62.5px"
