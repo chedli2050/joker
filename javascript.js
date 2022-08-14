@@ -18,7 +18,8 @@ function enleverstartscren()
 startscreen.style.display = "none";
 boxsommaire.style.display = "flex";
 }
-startscreen.addEventListener('click',enleverstartscren)
+// startscreen.addEventListener('click',ouvrirsommaire);
+startscreen.addEventListener('click',enleverstartscren);
 
 // Fin Start Screen
 var logobarrehaut = document.getElementById('logobarrehaut');
