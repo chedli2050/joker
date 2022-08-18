@@ -134,22 +134,46 @@ boxporte.className = "boxporte0"
 boxparametrage.className = "boxparametrage0"
 btretour.className="btreour0"
 hautdelapage.scrollIntoView({behavior:"smooth"});
+
 carrenoir.className="carrenoir0";
+rectanglerouge.className="rectanglerouge0";
+finrectanglerouge.className="finrectanglerouge0"
+tresfinrouge.className="tresfinrouge0";
+rectangledegrade.className="rectangledegrade0";
+presentationp1.className="presentationp10";
+sloganpresentation.className = "sloganpresentation0";
+titrepresentation.className = "titrepresentation0";
+conteneursloganpresentation.className ="conteneursloganpresentation0"
 }
 
 
 var carrenoir = document.getElementById('carrenoir');
-
+var rectanglerouge = document.getElementById('rectanglerouge');
+var finrectanglerouge = document.getElementById('finrectanglerouge');
+var tresfinrouge=document.getElementById('tresfinrouge');
+var rectangledegrade=document.getElementById('rectangledegrade');
+var sloganpresentation = document.getElementById('sloganpresentation');
+var titrepresentation=document.getElementById('titrepresentation');
+var conteneursloganpresentation=document.getElementById('conteneursloganpresentation');
 
 function ouvrirblocnotes()
 {
-boxsommaire.className = "boxsommaire0"
-boxblocnotes.className = "boxblocnotes1"
-boxlivres.className = "boxlivres0"
-boxflyers.className = "boxflyers0"
-boxporte.className = "boxporte0"
+boxsommaire.className = "boxsommaire0";
+boxblocnotes.className = "boxblocnotes1";
+boxlivres.className = "boxlivres0";
+boxflyers.className = "boxflyers0";
+boxporte.className = "boxporte0";
 boxparametrage.className = "boxparametrage0"
+
+
 carrenoir.className="carrenoir1";
+rectanglerouge.className="rectanglerouge1";
+finrectanglerouge.className="finrectanglerouge1";
+tresfinrouge.className="tresfinrouge1";
+rectangledegrade.className="rectangledegrade1";
+sloganpresentation.className = "sloganpresentation1";
+titrepresentation.className = "titrepresentation1";
+conteneursloganpresentation.className ="conteneursloganpresentation1";
 
 }
 
