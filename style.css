@@ -186,13 +186,13 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 .boxsommaire1{transition-duration: 0.8s;margin-left: 0px;transform: scale(1); opacity: 1;} 
 .boxsommaire1.opaque{margin-left: -400px;transform: scale(0);opacity: 0;}
 
-#boxinitiale{width: 100%;height: 150px;
+#boxinitiale{width: 100%;height: 200px;
     background-color: white;
     display: flex;justify-content: center;overflow: hidden;margin-bottom: 10px;align-items: center;
     box-shadow: 0px -3px 9px grey;
     }
 
-#boxinitiale p {font-size: 10pt;text-align: justify;width: 90%;line-height: 0px;}
+/* #boxinitiale p {font-size: 10pt;text-align: justify;width: 90%;line-height: 0px;} */
 
 
 
@@ -218,13 +218,68 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                         99% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);opacity: 1;}
                         100% {background-image: url(photos/logojokercomplet.png);transform: scale(0);opacity: 0;}
                     }
-.boxinitilepartie2{width: 74%;height: 150px; padding-left: 30px;}
+.boxinitilepartie2{width: 74%;height: 200px; padding-left: 30px;position: relative;overflow: hidden;}
 .photobaniere1{width: 100%;height: 100%;object-fit: cover;}
 
 
+.fonddegrade{position: absolute;top: 20px;right: 0px;width: 800px;height:160px;transform: translate(-100px);
+    background: linear-gradient(rgba(255, 255, 255, 0.728),rgba(255, 255, 255, 0.283));opacity: 1;
+    box-shadow: 1px 1px 5px gray;
+    animation-name: Animationdegradephto;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-iteration-count: initial;
+    animation-direction: normal;}
+@keyframes Animationdegradephto
+    {
+
+        0%  {opacity: 0;transform: translate(600px);}
+        50%  {opacity: 0;transform: translate(600px);}
+        100% {opacity: 1;transform: translate(-100px);}
+        
+    }
+    /*  */
 
 
-#boxblocbt{width: 40%;height: 240px;border-radius: 20px;background-color:rgba(217, 217, 217, 0.3);position: relative;
+.checkrestauranttitre{color:rgba(69, 69, 69, 0.813);font-weight: bold;position: absolute;top: 0px;left:10px;
+                      font-size: 38pt;width: fit-content;text-align: center;opacity: 1;
+                      padding: 5px;
+                      animation-name: Animationtitreticketrestaurants;
+                      animation-duration: 3s;
+                      animation-timing-function:linear;
+                      animation-iteration-count: initial;
+                      animation-direction: normal;}
+                 @keyframes Animationtitreticketrestaurants
+                      {
+                  
+                          0%  {transform: translate(0px,-260px) ;opacity: 0;}
+                          90%{transform: translate(0px,-160px) ;opacity: 0.2;}
+                          100% {transform: translate(0px,0px);opacity: 1;}
+                          
+                      }
+
+
+
+
+.leticketrestaurants{position: absolute; top: 0px;right: 0px;transform: scale(0.8) rotate(0deg) translate(0px);
+    height: 200px;
+    animation-name: Animationticketrestaurants;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: initial;
+    animation-direction: normal;}
+    @keyframes Animationticketrestaurants
+    {
+
+        0%  {transform: scale(1) rotate(0deg) translate(450px);opacity: 0.9;}
+        70% {transform: scale(1) rotate(0deg) translate(-30px);opacity: 1;}
+        100% {transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;}
+        
+    }
+
+
+
+#boxblocbt{width: 40%;height: 210px;border-radius: 20px;background-color:rgba(217, 217, 217, 0.3);position: relative;
     display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: row;margin: 8px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
 
@@ -270,7 +325,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 
 
-#boxlivresbt{width: 40%;height: 240px;border-radius: 20px;background-color:rgba(217, 217, 217, 0.3);position: relative;
+#boxlivresbt{width: 40%;height: 210px;border-radius: 20px;background-color:rgba(217, 217, 217, 0.3);position: relative;
     display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 8px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
 
@@ -306,7 +361,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
     .boxtextenosproduitsbt{width: fit-content;height: 220px;margin-left: 10px;}
  
 
-#boxflyersbt{width: 40%;height: 240px;border-radius: 20px;background-color: rgba(217, 217, 217, 0.3);position: relative;
+#boxflyersbt{width: 40%;height: 210px;border-radius: 20px;background-color: rgba(217, 217, 217, 0.3);position: relative;
     display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 8px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
 
@@ -338,7 +393,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
     }
 
     
-    .boxtexteutilisateurbt{width: fit-content;height: 220px;margin-left: 10px;}
+    .boxtexteutilisateurbt{width: fit-content;height: 200px;margin-left: 10px;}
     #textclt2, #textclt1, #textutil1, #textutil2 {color: rgb(99, 99, 99);font-size: 26pt;font-weight: bold;
         font-family: 'Nunito', sans-serif;
         display: block;margin-bottom: -8px;
@@ -346,7 +401,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
    
 
-#boxportedocbt{width: 40%;height: 240px;border-radius: 20px;background-color:rgba(217, 217, 217, 0.3);position: relative;
+#boxportedocbt{width: 40%;height: 210px;border-radius: 20px;background-color:rgba(217, 217, 217, 0.3);position: relative;
     display: flex;justify-content: center;flex-wrap: wrap;align-content:  center;flex-direction: column;margin: 8px;
     color: white;font-size: 16pt;font-weight: bold;font-family: Arial, Helvetica, sans-serif;overflow: hidden;}
     #boxportedocbt:hover{box-shadow: 1.5px 1.5px 6px rgb(112, 112, 112);}
@@ -483,9 +538,10 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
           border-radius: 20px;background-color: rgba(255, 255, 255, 0.224);
          
       }
-      .box1presentation2{width: 60%;height: fit-content;border: 1px solid black;padding-left: 10px;padding-right: 10px;}
-      .box1presentation2 p {text-align: justify;line-height: 25px; font-size: 12pt;}
-
+      .box1presentation2{width: 60%;height: fit-content;padding-left: 10px;padding-right: 10px;}
+      .box1presentation2 p {text-align: justify;line-height: 25px; font-size: 10pt;}
+      .box1presentation2 h2 {font-size: 16pt; color: rgb(161, 0, 0);font-weight: bold;}
+      .box1presentation2 h3 {font-size: 14pt; color: rgb(130, 122, 122);font-style: italic;}
 
 
 #presentationp3{width: 48%;height: 300px; 
@@ -811,10 +867,9 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
             align-content: space-around;justify-content: space-between;align-items: center;
             height: 340px;overflow: hidden;
             }
-            .boxinitilepartie1{width: 100%;height: 300px;background-image: url(photos/slogan.png);
+            .boxinitilepartie1{width: 100%;height: 200px;background-image: url(photos/slogan.png);
                 background-repeat: no-repeat;background-size: contain;background-position: center}
-            .boxinitilepartie2{width: 100%;height: 100px;display: none;}
-            #boxinitiale p {font-size: 10pt;text-align: justify;width: 100%;}
+            .boxinitilepartie2{width: 100%;height: 200px;}
 
 
 
@@ -891,7 +946,8 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
           position: relative;overflow: hidden;transition: 4s;align-items: center;
           }
 
-          #conteneursloganpresentation{width: 55%;height: 200px;position: relative;transition: 0.5s;transition-delay: 4s;
+          #conteneursloganpresentation{width: 55%;height: 200px;position: relative;transition: 0.5s;
+            transition-delay: 4s;
             background-color: rgba(255, 255, 255, 0.966);border-radius: 20px;}
 
             .conteneursloganpresentation0{transform: rotateY(90deg);box-shadow: 0px 0px 0px rgba(128, 128, 128, 0.024);}
@@ -989,9 +1045,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
         }
         .box1presentation2{width: 94%;height: fit-content;padding-left: 10px;
                             padding-right: 10px;}
-        .box1presentation2 p {text-align: justify;line-height: 25px; font-size: 12pt;}
-        .box1presentation2 h2 {font-size: 16pt; color: rgb(161, 0, 0);}
-        .box1presentation2 h3 {font-size: 14pt; color: rgb(130, 122, 122);}
+
   
 
         #presentationp3{height: 300px;width: 100%;}

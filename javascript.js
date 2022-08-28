@@ -124,6 +124,7 @@ var boxparametrage = document.getElementById('boxparametrage');
 
 
 
+
 function ouvrirsommaire()
 {
 boxsommaire.className = "boxsommaire1"
@@ -144,6 +145,7 @@ presentationp1.className="presentationp10";
 sloganpresentation.className = "sloganpresentation0";
 titrepresentation.className = "titrepresentation0";
 conteneursloganpresentation.className ="conteneursloganpresentation0"
+conteneursloganpresentation.style.transitionDelay="0s"
 }
 
 
@@ -174,6 +176,7 @@ rectangledegrade.className="rectangledegrade1";
 sloganpresentation.className = "sloganpresentation1";
 titrepresentation.className = "titrepresentation1";
 conteneursloganpresentation.className ="conteneursloganpresentation1";
+conteneursloganpresentation.style.transitionDelay="3.4s"
 
 }
 
