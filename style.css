@@ -203,13 +203,11 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                         animation-duration: 20s;
                         animation-timing-function: ease;
                         animation-iteration-count: infinite;
-                        animation-direction: normal;      
-
+                        animation-direction: normal; 
                         }
                         
                  @keyframes Animationlogo
                     {
-                
                         0%  {background-image: url(photos/slogan.png);transform: scale(0);opacity: 0;}
                         1% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 1;}
                         48% {background-image: url(photos/slogan.png);transform: scale(1);opacity: 1;}
@@ -218,65 +216,321 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                         99% {background-image: url(photos/logojokercomplet.png);transform: scale(0.7);opacity: 1;}
                         100% {background-image: url(photos/logojokercomplet.png);transform: scale(0);opacity: 0;}
                     }
+
+
+
+
+
+
 .boxinitilepartie2{width: 74%;height: 200px; padding-left: 30px;position: relative;overflow: hidden;}
 
-.photobaniere1{width: 100%;height: 100%;object-fit: cover;}
-
-
-.fonddegrade{position: absolute;top: 20px;right: 0px;width: 800px;height:160px;transform: translate(-100px);
-    background-color: rgba(128, 128, 128, 0.439);opacity: 1;
-    box-shadow: 1px 1px 5px gray;
-    animation-name: Animationdegradephto;
-    animation-duration: 2s;
+.photobaniere1{width: 100%;height: 100%;object-fit: cover;
+    animation-name: Animationphotobaniere1;
+    animation-duration: 32s;
     animation-timing-function:linear;
-    animation-iteration-count: initial;
+    animation-iteration-count: infinite;
     animation-direction: normal;}
-@keyframes Animationdegradephto
-    {
-
-        0%  {opacity: 0;transform: translate(600px);}
-        50%  {opacity: 0;transform: translate(600px);}
-        80% {opacity: 1;transform: translate(-100px);}
+    @keyframes Animationphotobaniere1
+    {   0% {background-image: url(photos/photobaniere1.png);}
         
+        18%  {opacity: 1;transform: rotateX(0deg);}
+        19%  {opacity: 0;transform: rotateX(90deg);background-image: url(photos/photobaniere1.png);}
+        19.4% {opacity: 1;transform: rotateX(0deg);background-image: url(photos/photobaniere2.png);}
+        
+        35.6% {opacity: 1;transform: rotateX(0deg);}
+        36.6% {opacity: 0;transform: rotateX(90deg);background-image: url(photos/photobaniere2.png);}
+        37%{opacity: 1;transform: rotateX(0deg);background-image: url(photos/photobaniere3.png);}
+       
+        53.6%{opacity: 1;transform: rotateX(0deg);}
+        54.6%{opacity: 0;transform: rotateX(90deg);background-image: url(photos/photobaniere3.png);}
+        55%{opacity: 1;transform: rotateX(0deg);background-image: url(photos/photobaniere4.png);}
+        
+        
+
+        
+        100% {opacity: 1;transform: rotateX(0deg);background-image: url(photos/photobaniere4.png);}
     }
 
 
-.checkrestauranttitre{color:white;font-weight: bold;position: absolute;top: 0px;left:10px;
+
+.fonddegrade{position: absolute;top: 20px;right: 0px;width: 800px;height:158.4px;transform: translate(-100px);
+    background-color: rgba(128, 128, 128, 0.439);opacity: 1;
+    box-shadow: 1px 1px 5px gray;
+    animation-name: Animationdegradephto;
+    animation-duration: 32s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;}
+@keyframes Animationdegradephto
+    {
+        0%  {opacity: 0;transform: translate(600px);}
+        
+        3.125%  {opacity: 0;transform: translate(600px);}
+        5% {opacity: 1;transform: translate(-100px);}
+        
+        16.5% {opacity: 1;transform: translate(-100px);}
+        17.5%{opacity: 0;transform: translate(600px);}
+        
+        20%{opacity: 0;transform: translate(600px);}
+        21.5%{opacity: 1;transform: translate(-100px);}
+        
+        33.5%  {opacity: 1;transform: translate(-100px);}
+        34.5% {opacity: 0;transform: translate(600px);}
+
+        38.5%  {opacity: 0;transform: translate(600px);}
+        39.5% {opacity: 1;transform: translate(-100px);}
+
+        51%  {opacity: 1;transform: translate(-100px);}
+        52% {opacity: 0;transform: translate(600px);}
+
+
+        100%{opacity: 0;transform: translate(600px);}
+    }
+
+
+                .checkrestauranttitre{color:white;font-weight: bold;position: absolute;top: 0px;left:10px;
                       font-size: 28pt;width: fit-content;text-align: center;opacity: 1;
                       padding: 5px;
                       animation-name: Animationtitreticketrestaurants;
-                      animation-duration: 2s;
+                      animation-duration: 32s;
                       animation-timing-function:linear;
-                      animation-iteration-count: initial;
+                      animation-iteration-count: infinite;
                       animation-direction: normal;}
                  @keyframes Animationtitreticketrestaurants
                       {
                   
                           0%  {transform: translate(0px,-260px) ;opacity: 0;}
-                          70%{transform: translate(0px,-160px) ;opacity: 0.2;}
-                          100% {transform: translate(0px,0px);opacity: 1;}
+                          4.375%{transform: translate(0px,-160px) ;opacity: 0.2;}
+                          5.375% {transform: translate(0px,0px);opacity: 1;}
+                          20%{transform: translate(0px,0px);opacity: 1;}
+                          20.1%  {transform: translate(0px,-260px) ;opacity: 0;}
+                          100%  {transform: translate(0px,-260px) ;opacity: 0;}
                           
                       }
-                      .textetitrecheckrepas{position: absolute;top: 70px;left: 30px;color: rgb(255, 255, 255);
-                    font-size: 14pt; width: fit-content;background-color: red;padding: 5px;}
+
+
+
+                      .checkcadeauxtitre{color:white;font-weight: bold;position: absolute;top: 0px;left:10px;
+                        font-size: 28pt;width: fit-content;text-align: center;opacity: 1;
+                        padding: 5px;
+                        animation-name: Animationtitrecadeaux;
+                        animation-duration: 32s;
+                        animation-timing-function:linear;
+                        animation-iteration-count: infinite;
+                        animation-direction: normal;}
+                   @keyframes Animationtitrecadeaux
+                        {
+                    
+                            0%  {transform: translate(0px,-260px) ;opacity: 0;}
+
+                            20.1%  {transform: translate(0px,-260px) ;opacity: 0;}
+                            21.375%{transform: translate(0px,-160px) ;opacity: 0.2;}
+                            22.375% {transform: translate(0px,0px);opacity: 1;}
+
+                            34% {transform: translate(0px,0px);opacity: 1;}
+                            34.4%{transform: translate(0px,-260px) ;opacity: 0;}
+
+                            100%{transform: translate(0px,-260px) ;opacity: 0;}
+                            
+                        }
+
+
+
+                        .checkhabillementtitre{color:white;font-weight: bold;position: absolute;top: 0px;left:10px;
+                            font-size: 28pt;width: fit-content;text-align: center;opacity: 1;
+                            padding: 5px;
+                            animation-name: Animationtitrehabillement;
+                            animation-duration: 32s;
+                            animation-timing-function:linear;
+                            animation-iteration-count: infinite;
+                            animation-direction: normal;}
+                       @keyframes Animationtitrehabillement
+                            {
+                        
+                                0%  {transform: translate(0px,-260px) ;opacity: 0;}
+    
+                                34.4%  {transform: translate(0px,-260px) ;opacity: 0;}
+                                39.5%{transform: translate(0px,-160px) ;opacity: 0.2;}
+                                40.5% {transform: translate(0px,0px);opacity: 1;}
+    
+                               
+    
+                                100%{transform: translate(0px,0px);opacity: 1;}
+                                
+                            }
+
+
+
+
+
+                    
+                    
+                    .textetitrecheckrepas{position: absolute;top: 70px;left: 30px;color: rgb(255, 255, 255);
+                    font-size: 14pt; width: fit-content;background-color: red;padding: 5px;
+                    animation-name: Animationpetittitreticketrestaurants;
+                      animation-duration: 32s;
+                      animation-timing-function:linear;
+                      animation-iteration-count: infinite;
+                      animation-direction: normal;}
+
+                      @keyframes Animationpetittitreticketrestaurants
+                      {
+                  
+                          0%  {transform: translate(0px) ;opacity: 1;}
+                          20%  {transform: translate(0px) ;opacity: 1;}
+                          20.1%{transform: translate(-500px,-500px) ;opacity: 0;}
+                          100% {transform: translate(-500px,-500px) ;opacity: 0;}
+     
+                      }
+
+                      .textecadeaux{position: absolute;top: 70px;left: 30px;color: rgb(255, 255, 255);
+                        font-size: 14pt; width: fit-content;background-color: rgb(0, 191, 255);padding: 5px;
+                        animation-name: animationtextecadeaux;
+                          animation-duration: 32s;
+                          animation-timing-function:linear;
+                          animation-iteration-count: infinite;
+                          animation-direction: normal;}
+    
+                          @keyframes animationtextecadeaux
+                          {
+                      
+                              0%  {transform: translate(-500px,-500px) ;opacity: 0;}
+                              20% {transform: translate(-500px,-500px) ;opacity: 0;}
+                              20.1%{transform: translate(-500px,-500px) ;opacity: 0;}
+                              20.4%{transform: translate(0px) ;opacity: 1;}
+
+                              34% {transform: translate(0px) ;opacity: 1;}
+                              34.4%{transform: translate(-500px,-500px) ;opacity: 0;}
+                              
+                              
+                              
+                              100% {transform: translate(-500px,-500px) ;opacity: 0;}
+         
+                          }
+
+
+
+
+                          .textehabilement{position: absolute;top: 70px;left: 30px;color: rgb(255, 255, 255);
+                            font-size: 14pt; width: fit-content;background-color: green;padding: 5px;
+                            animation-name: animationtexthabillement;
+                              animation-duration: 32s;
+                              animation-timing-function:linear;
+                              animation-iteration-count: infinite;
+                              animation-direction: normal;}
+        
+                              @keyframes animationtexthabillement
+                              {
+                          
+                                  0%  {transform: translate(-500px,-500px) ;opacity: 0;}
+                                  20% {transform: translate(-500px,-500px) ;opacity: 0;}
+                                  34.4%{transform: translate(-500px,-500px) ;opacity: 0;}
+                                  34.5%{transform: translate(0px) ;opacity: 1;}
+    
+                                  
+                                  
+                                  
+                                  100% {transform: translate(0px) ;opacity: 1;}
+             
+                              }
+
+
+
+
+
 
 
 
 .leticketrestaurants{position: absolute; top: 0px;right: 0px;transform: scale(0.8) rotate(0deg) translate(0px);
-    height: 200px;
+    height: 198px;width: 319px;background-image: url(photos/ticketrestaurants.png);
     animation-name: Animationticketrestaurants;
-    animation-duration: 1s;
+    animation-duration: 32s;
     animation-timing-function:linear;
-    animation-iteration-count: initial;
+    animation-iteration-count: infinite;
     animation-direction: normal;}
     @keyframes Animationticketrestaurants
     {
 
         0%  {transform: scale(1) rotate(0deg) translate(450px);opacity: 0.9;}
-        70% {transform: scale(1) rotate(0deg) translate(-30px);opacity: 1;}
-        100% {transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;}
         
+        1% {transform: scale(1) rotate(0deg) translate(-30px);opacity: 1;}
+        2% {transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;}
+       
+        17.5%{transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;}
+        18.5%{transform: scale(0.8) rotate(-40deg) translate(450px);opacity: 0;}
+        
+        18.6%{transform: scale(1) rotate(0deg) translate(450px);opacity: 0.9;background-image: url(photos/ticketrestaurants.png);}
+        19.5%{transform: scale(1) rotate(0deg) translate(-30px);opacity: 1;background-image: url(photos/ticketcadeaux.png);}
+        20%{transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;background-image: url(photos/ticketcadeaux.png);}
+        
+        34.5%{transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;}
+        35.5%{transform: scale(0.8) rotate(-40deg) translate(450px);opacity: 0;}
+
+        37.1%{transform: scale(1) rotate(0deg) translate(450px);opacity: 0.9;background-image: url(photos/ticketcadeaux.png);}
+        38%{transform: scale(1) rotate(0deg) translate(-30px);opacity: 1;background-image: url(photos/tickethabillement.png);}
+        38.5%{transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;background-image: url(photos/tickethabillement.png);}
+
+        52%{transform: scale(0.8) rotate(0deg) translate(0px);opacity: 1;}
+        53%{transform: scale(0.8) rotate(-40deg) translate(450px);opacity: 0;}
+        
+        100%{transform: scale(0.8) rotate(-40deg) translate(450px);opacity: 0;background-image: url(photos/tickethabillement.png);}
     }
+
+
+
+    .rectangleblanclogan{width: 50%;height: 30%;position: absolute;top: 50%;left: 50%;background-color: white;
+                            transform: translate(-50%,-50%);border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;
+                            border: 0.5px solid gray;
+                            
+                            animation-name: animationrectangleblancslogan;
+                            animation-duration: 32s;
+                            animation-timing-function:linear;
+                            animation-iteration-count: infinite;
+                            animation-direction: normal;}
+                       
+                            @keyframes animationrectangleblancslogan
+                            {
+                                0%{transform: translate(-50%,-50%)rotateX(-90deg);opacity: 0;}
+                                57%{transform:translate(-50%,-50%) rotateX(-90deg);opacity: 1;}
+                                58%{transform:translate(-50%,-50%) rotateX(0deg);opacity: 1;}
+                                
+                                59%{transform:translate(-50%,0%) rotateX(0deg);opacity: 1;}
+                                97%{transform:translate(-50%,0%) rotateX(0deg);opacity: 1;}
+                                98%{transform:translate(-50%,0%) rotateX(90deg);opacity: 0;}
+                                100%{transform: translate(-50%,-50%)rotateX(-90deg);opacity: 0;}
+                            }
+
+                        .rectangleblanclogan span{color: black;font-size: 22pt;width: 95%;
+                            font-family: Calibri, 'Trebuchet MS', sans-serif;position: absolute;top: 60%;left: 50%;
+                            transform: translate(-50%,-50%);text-align: center;line-height: 0px
+                        }
+
+
+
+
+.rectanglerougeslogan{width: 50%;height: 30%;position: absolute;top: 50%;left: 50%;background-color: red;
+                            transform: translate(-50%,-50%);border-radius: 20px;box-shadow: 1px 1px 10px gray;
+                            animation-name: animationrectanglerougeslogan;
+                            animation-duration: 32s;
+                            animation-timing-function:linear;
+                            animation-iteration-count: infinite;
+                            animation-direction: normal;}
+                       
+                            @keyframes animationrectanglerougeslogan
+                            {
+                                0%{transform: translate(-50%,-50%)rotateX(-90deg) ;opacity: 1;}
+                                57%{transform:translate(-50%,-50%) rotateX(-90deg) ;opacity: 1;}
+                                58%{transform:translate(-50%,-50%) rotateX(0deg) ;opacity: 1;}
+                                59%{transform:translate(-50%,-70%) rotateX(0deg) ;opacity: 1;}
+                                100%{transform: translate(-50%,-70%)rotateX(0deg) ;opacity: 1;}
+                            }
+
+                        .rectanglerougeslogan span{color: white;font-size: 22pt;font-weight: bolder;width: 95%;
+                            font-family: Calibri, 'Trebuchet MS', sans-serif;position: absolute;top: 50%;left: 50%;
+                            transform: translate(-50%,-50%);text-align: center;line-height: 0px
+                        }
+
+/* -----------------------------------------------------------------------Fin Sommaire */
 
 
 
