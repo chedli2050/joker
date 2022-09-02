@@ -245,11 +245,11 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
         54.6%{opacity: 0;transform: rotateX(90deg);background-image: url(photos/photobaniere3.png);}
         55%{opacity: 1;transform: rotateX(0deg);background-image: url(photos/photobaniere4.png);}
         
-        
+        99%{opacity: 1;transform: rotateX(0deg);}
+        99.6%{opacity: 0;transform: rotateX(90deg);background-image: url(photos/photobaniere4.png);}
+        100%{opacity: 1;transform: rotateX(0deg);background-image: url(photos/photobaniere1.png);}
 
-        
-        100% {opacity: 1;transform: rotateX(0deg);background-image: url(photos/photobaniere4.png);}
-    }
+        }
 
 
 
@@ -290,7 +290,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
                 .checkrestauranttitre{color:white;font-weight: bold;position: absolute;top: 0px;left:10px;
                       font-size: 28pt;width: fit-content;text-align: center;opacity: 1;
-                      padding: 5px;
+                      padding: 5px;text-shadow: 0px 0px 5px black;
                       animation-name: Animationtitreticketrestaurants;
                       animation-duration: 32s;
                       animation-timing-function:linear;
@@ -312,7 +312,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
                       .checkcadeauxtitre{color:white;font-weight: bold;position: absolute;top: 0px;left:10px;
                         font-size: 28pt;width: fit-content;text-align: center;opacity: 1;
-                        padding: 5px;
+                        padding: 5px;text-shadow: 0px 0px 5px black;
                         animation-name: Animationtitrecadeaux;
                         animation-duration: 32s;
                         animation-timing-function:linear;
@@ -338,7 +338,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
                         .checkhabillementtitre{color:white;font-weight: bold;position: absolute;top: 0px;left:10px;
                             font-size: 28pt;width: fit-content;text-align: center;opacity: 1;
-                            padding: 5px;
+                            padding: 5px;text-shadow: 0px 0px 5px black;
                             animation-name: Animationtitrehabillement;
                             animation-duration: 32s;
                             animation-timing-function:linear;
@@ -366,7 +366,8 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                     
                     
                     .textetitrecheckrepas{position: absolute;top: 70px;left: 30px;color: rgb(255, 255, 255);
-                    font-size: 14pt; width: fit-content;background-color: red;padding: 5px;
+                    font-size: 14pt; width: fit-content;background-color: red;
+                    padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;
                     animation-name: Animationpetittitreticketrestaurants;
                       animation-duration: 32s;
                       animation-timing-function:linear;
@@ -384,7 +385,8 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                       }
 
                       .textecadeaux{position: absolute;top: 70px;left: 30px;color: rgb(255, 255, 255);
-                        font-size: 14pt; width: fit-content;background-color: rgb(0, 191, 255);padding: 5px;
+                        font-size: 14pt; width: fit-content;background-color: rgb(0, 191, 255);
+                        padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;
                         animation-name: animationtextecadeaux;
                           animation-duration: 32s;
                           animation-timing-function:linear;
@@ -412,7 +414,8 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 
                           .textehabilement{position: absolute;top: 70px;left: 30px;color: rgb(255, 255, 255);
-                            font-size: 14pt; width: fit-content;background-color: green;padding: 5px;
+                            font-size: 14pt; width: fit-content;background-color: green;
+                            padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;
                             animation-name: animationtexthabillement;
                               animation-duration: 32s;
                               animation-timing-function:linear;
@@ -443,6 +446,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 .leticketrestaurants{position: absolute; top: 0px;right: 0px;transform: scale(0.8) rotate(0deg) translate(0px);
     height: 198px;width: 319px;background-image: url(photos/ticketrestaurants.png);
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.537);
     animation-name: Animationticketrestaurants;
     animation-duration: 32s;
     animation-timing-function:linear;
@@ -491,21 +495,66 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                             @keyframes animationrectangleblancslogan
                             {
                                 0%{transform: translate(-50%,-50%)rotateX(-90deg);opacity: 0;}
-                                57%{transform:translate(-50%,-50%) rotateX(-90deg);opacity: 1;}
-                                58%{transform:translate(-50%,-50%) rotateX(0deg);opacity: 1;}
                                 
-                                59%{transform:translate(-50%,0%) rotateX(0deg);opacity: 1;}
-                                97%{transform:translate(-50%,0%) rotateX(0deg);opacity: 1;}
-                                98%{transform:translate(-50%,0%) rotateX(90deg);opacity: 0;}
+                                57%{transform:translate(-50%,-50%) rotateX(-90deg);opacity: 0.9;}
+                                58%{transform:translate(-50%,-50%) rotateX(0deg);opacity: 0.9;}
+                                59%{transform:translate(-50%,0%) rotateX(0deg);opacity: 0.9;}
+                                
+                                77%{transform:translate(-50%,0%) rotateX(0deg);opacity: 0.9;}
+                                78%{transform:translate(-50%,-50%) rotateX(0deg);opacity: 0.9;}
+                                79%{transform:translate(-50%,0%) rotateX(0deg);opacity: 0.9;}
+                          
+                                91%{transform:translate(-50%,0%) rotateX(0deg);opacity: 0.9;}
+                                92%{transform:translate(-50%,-50%) rotateX(0deg);opacity: 0.9;}
+                               
+                                97%{transform:translate(-50%,-50%) rotateX(0deg);opacity: 0;}
+                                98%{transform:translate(-50%,-50%) rotateX(-90deg);opacity: 0;}
+
+
                                 100%{transform: translate(-50%,-50%)rotateX(-90deg);opacity: 0;}
                             }
 
                         .rectangleblanclogan span{color: black;font-size: 22pt;width: 95%;
-                            font-family: Calibri, 'Trebuchet MS', sans-serif;position: absolute;top: 60%;left: 50%;
+                            font-family: 'Nunito', sans-serif;position: absolute;top: 63%;left: 50%;
                             transform: translate(-50%,-50%);text-align: center;line-height: 0px
                         }
+                        .telicone{font-size: 18pt;color: rgb(109, 109, 109);}
+                        .contacttel{display: block;
+                            animation-name: animcontacttel;
+                            animation-duration: 32s;
+                            animation-timing-function:linear;
+                            animation-iteration-count: infinite;
+                            animation-direction: normal;}
+                        
+                            @keyframes animcontacttel
+                            {
+                                0%{opacity: 1;}
+  
+                                76%{opacity: 1;}
+                                77%{opacity: 1;}
+                                77.1%{opacity: 0;}
+
+                                100%{opacity: 0;}
+                            }
 
 
+                            .contactmail{opacity: 0;
+                                animation-name: animcontactmail;
+                                animation-duration: 32s;
+                                animation-timing-function:linear;
+                                animation-iteration-count: infinite;
+                                animation-direction: normal;}
+                            
+                                @keyframes animcontactmail
+                                {
+                                    0%{opacity: 0;}
+      
+                                    76%{opacity: 0;}
+                                    77%{opacity: 0;}
+                                    78%{opacity: 1;}
+    
+                                    100%{opacity: 1;}
+                                }
 
 
 .rectanglerougeslogan{width: 50%;height: 30%;position: absolute;top: 50%;left: 50%;background-color: red;
@@ -520,17 +569,34 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                             {
                                 0%{transform: translate(-50%,-50%)rotateX(-90deg) ;opacity: 1;}
                                 57%{transform:translate(-50%,-50%) rotateX(-90deg) ;opacity: 1;}
+                                
                                 58%{transform:translate(-50%,-50%) rotateX(0deg) ;opacity: 1;}
                                 59%{transform:translate(-50%,-70%) rotateX(0deg) ;opacity: 1;}
-                                100%{transform: translate(-50%,-70%)rotateX(0deg) ;opacity: 1;}
+                                
+                      
+                                77%{transform:translate(-50%,-70%) rotateX(0deg) ;opacity: 1;}
+                                78%{transform:translate(-50%,-50%) rotateX(0deg) ;opacity: 1;}
+                                79%{transform:translate(-50%,-70%) rotateX(0deg) ;opacity: 1;}
+
+                                91%{transform:translate(-50%,-70%) rotateX(0deg) ;opacity: 1;}
+                                92%{transform:translate(-50%,-50%) rotateX(0deg) ;opacity: 1;}
+                              
+                                
+                                
+                                97%{transform:translate(-50%,-50%) rotateX(0deg) ;opacity: 1;}
+                                98%{transform: translate(-50%,-50%)rotateX(-90deg) ;opacity: 0;}
+
+                                100%{transform: translate(-50%,-50%)rotateX(-90deg) ;opacity: 0;}
                             }
 
-                        .rectanglerougeslogan span{color: white;font-size: 22pt;font-weight: bolder;width: 95%;
-                            font-family: Calibri, 'Trebuchet MS', sans-serif;position: absolute;top: 50%;left: 50%;
+                        .rectanglerougeslogan span{color: white;font-size: 20pt;width: 98%;
+                            font-family: sans-serif;position: absolute;top: 50%;left: 50%;
                             transform: translate(-50%,-50%);text-align: center;line-height: 0px
                         }
-
-/* -----------------------------------------------------------------------Fin Sommaire */
+                        .jokerbold{font-weight: bold;color:white;
+                            text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0);
+                            font-family:Arial, Helvetica, sans-serif;}
+/* -----------------------------------------------------------------------Fin Sommaire --------------*/
 
 
 

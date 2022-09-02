@@ -58,7 +58,7 @@ else if (mois == 12){moisl="Décembre"};
 
 
 var ladate = document.getElementById('ladate');
-ladate.innerHTML =  jour + " " + moisl + " " + annee + " v3";
+ladate.innerHTML =  jour + " " + moisl + " " + annee + " v4";
 
 //Fin incrementation Date
 
