@@ -223,7 +223,9 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 /* ici */
 
 .boxinitilepartie2{width: 74%;height: 200px; padding-left: 30px;position: relative;overflow: hidden;}
+.boxintialegsm{display: none;}
 .boxinitialemilieu{display: none;}
+
 
 .photobaniere1{width: 100%;height: 100%;object-fit: cover;
     animation-name: Animationphotobaniere1;
@@ -1185,7 +1187,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
         .boxsommaire1.opaque{margin-left: -400px;transform: scale(0);opacity: 0;}
     
         #boxinitiale{width: 100%;
-            display: flex;flex-direction: column;flex-direction: column-reverse;
+            display: flex;flex-direction: column;
             align-content: space-around;justify-content: space-between;align-items: center;
             height: fit-content;overflow: hidden;
             }
@@ -1197,8 +1199,11 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 /***** Ici Box intitial******/
 
 .boxinitilepartie1{display: none;}
+.boxinitilepartie2{display: none;}
+
+.boxintialegsm{display: flex;width: 100%;height: 200px;background-color: greenyellow;}
 .boxinitialemilieu{display: flex;width: 100%;height: 200px;background-color: red;}
-.boxinitilepartie2{width: 100%;height: 200px;object-fit: contain;}
+
 
 
 
