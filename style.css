@@ -1202,6 +1202,14 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 .boxinitilepartie2{display: none;}
 
 .boxintialegsm{display: flex;width: 100%;height: 200px;background-color: greenyellow;}
+                .photobanieremobile{position: absolute;top: 0px;left: 0px;width: 100%;height: 200px;
+                                    background-image: url(photos/photobanieremobile1.png);
+                                    background-position: center;background-repeat: no-repeat;
+                                    background-size: cover;
+                                    }
+
+
+
 .boxinitialemilieu{display: flex;width: 100%;height: 200px;background-color: red;}
 
 
