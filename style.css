@@ -1201,21 +1201,61 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 .boxinitilepartie1{display: none;}
 .boxinitilepartie2{display: none;}
 
-.boxintialegsm{display: flex;width: 100%;height: 200px;background-color: greenyellow;}
-                .photobanieremobile{position: absolute;top: 0px;left: 0px;width: 100%;height: 200px;
+.boxintialegsm{display: flex;width: 100%;height: 400px;position: relative;overflow: hidden;}
+                .photobanieremobile{position: absolute;top: 0px;left: 0px;width: 100%;height: 400px;
                                     background-image: url(photos/photobanieremobile1.png);
                                     background-position: center;background-repeat: no-repeat;
                                     background-size: cover;
-                                    }
+                                    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.537);
+                                    animation-name: animationphotomobile;
+                                    opacity: 0;
+                                    animation-duration: 32s;
+                                    animation-timing-function:linear;
+                                    animation-iteration-count: infinite;
+                                    animation-direction: normal;                                    
+                                }
+                                @keyframes animationphotomobile
+                                {
+                
+                                    0%{opacity: 0;}
+                                    1%{opacity: 1;}
+                                    2%{transform: scale(1);}
+                                    13.5%{transform: scale(1.3);}
+                                    100%{transform: scale(1.3);opacity: 1;}
+                                }
+
+.ticket {position: absolute; top: 70%;left: 50%;
+                height: 158.4px;width: 255.2px;
+                transform: translate(-50%, -50%) rotateY(-90deg);
+                
+                background-image: url(photos/ticketrestaurants.png);background-size: cover;
+                
+                box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.537);
+                
+                
+                animation-name: Animationticketrestaurantsmobile;
+                animation-duration: 32s;
+                animation-timing-function:linear;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+        }
+               
+                @keyframes Animationticketrestaurantsmobile
+                {
+
+                    0%{transform: translate(-50%, -50%) rotateY(-90deg);}
+                    1%{transform: translate(-50%, -50%) rotateY(-90deg);}
+                    2%{transform: translate(-50%, -50%) rotateY(0deg);}
+                    100%{transform: translate(-50%, -50%) rotateY(0deg);}
+                }
+               
 
 
 
-.boxinitialemilieu{display: flex;width: 100%;height: 200px;background-color: red;}
-
-
-
-
-
+.boxinitialemilieu{display: flex;width: 100%;height: 100px;position: relative;
+                    box-shadow: 0px 2px 10px gray; 
+                    
+                }
 
 
 
