@@ -1229,17 +1229,22 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                                     18%{transform: scale(1) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile2.png)}
                                     
                                    
-                                    31%{transform: scale(1.1) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile2.png)}
+                                    31%{transform: scale(1.3) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile2.png)}
                                     32%{transform: scale(1) rotateY(-90deg);opacity: 1;background-image: url(photos/photobanieremobile2.png)}
 
                                     32.01%{transform: scale(1) rotateY(-90deg);opacity: 1;background-image: url(photos/photobanieremobile3.png)}                                
                                     
                                     33%{transform: scale(1) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile3.png)}
                                     
+                                    52%{transform: scale(1.3) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile3.png)}
+                                    53%{transform: scale(1.3) rotateY(-90deg);opacity: 1;background-image: url(photos/photobanieremobile3.png)}
+                                    53.01%{transform: scale(1) rotateY(-90deg);opacity: 1;background-image: url(photos/photobanieremobile4.png)}
+                                    54%{transform: scale(1) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile4.png)}
+
+
+
                                     
-                                    
-                                    
-                                    100%{transform: scale(1.1) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile3.png)}
+                                    100%{transform: scale(1.3) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile4.png)}
                                 }
 
 .ticket {position: absolute; top: 70%;left: 50%;
@@ -1284,7 +1289,14 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 
 
-                    100%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/tickethabillement.png)}
+
+                    50%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/tickethabillement.png)}
+                    51%{transform: translate(-50%, -100%) rotateY(90deg);background-image: url(photos/tickethabillement.png)}
+
+
+
+
+                    100%{transform: translate(-50%, -100%) rotateY(90deg);background-image: url(photos/tickethabillement.png)}
                 }
                
 
