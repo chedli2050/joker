@@ -354,6 +354,15 @@ livresbt.addEventListener('click',ouvrirlivres);
 livresbt.addEventListener('click',remonteenhaut);
 livresbt.addEventListener('click',afficheretoursommaire);
 
+var titretrm=document.getElementById('titretrm');
+titretrm.addEventListener('click',ouvrirlivres);
+titretrm.addEventListener('click',remonteenhaut);
+titretrm.addEventListener('click',afficheretoursommaire);
+
+
+
+
+
 flyersbt.addEventListener('click',ouvrirflyers);
 flyersbt.addEventListener('click',remonteenhaut);
 flyersbt.addEventListener('click',afficheretoursommaire);
