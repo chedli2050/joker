@@ -1725,9 +1725,18 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
             background-color: rgba(255, 255, 255, 0.384);
 
         }
-        #nosproduitsp1{height: 300px;width: 98%;}
-        #nosproduitsp2{height: 300px;width: 98%;}
-        #nosproduitsp3{height: 300px;width: 98%;}
+        #nosproduitsp1{height: 300px;width: 98%;position: relative;}
+        #marqueurticketresto{position: absolute;bottom: 0px;width: 100px;height: 70px;background-color: rgba(255, 0, 0, 0);}
+        
+        #nosproduitsp2{height: 300px;width: 98%;position: relative;}
+        #marqueurticketcadeaux{position: absolute;bottom: 0px;width: 100px;height: 70px;background-color: rgba(255, 0, 0, 0);}
+        
+        #nosproduitsp3{height: 300px;width: 98%;position: relative;}
+        #marqueurtickethabillement{position: absolute;bottom: 0px;width: 100px;height: 70px;background-color: rgba(255, 0, 0, 0);}
+
+
+
+
         #nosproduitsp4{height: 300px;width: 98%;}
 
         .boxlivres0{transition-duration: 0.8s;margin-left: -400px;transform: scale(0); opacity: 0;} 

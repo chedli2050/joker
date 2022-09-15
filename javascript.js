@@ -354,13 +354,68 @@ livresbt.addEventListener('click',ouvrirlivres);
 livresbt.addEventListener('click',remonteenhaut);
 livresbt.addEventListener('click',afficheretoursommaire);
 
+
+
+var nosproduitsp4=document.getElementById('nosproduitsp4');
+var nosproduitsp3=document.getElementById('nosproduitsp3');
+var nosproduitsp2=document.getElementById('nosproduitsp2');
+var nosproduitsp1=document.getElementById('nosproduitsp1');
+var marqueurticketresto=document.getElementById('marqueurticketresto');
+var marqueurticketcadeaux=document.getElementById('marqueurticketcadeaux');
+var marqueurtickethabillement=document.getElementById('marqueurtickethabillement');
+
+
+function alleraticketrestaurant()
+{
+    setTimeout(() => {marqueurticketresto.scrollIntoView({behavior:"smooth",block:"start"});  
+        
+    }, 700);
+    
+}
+
+function alleraticketcadeaux()
+{
+    setTimeout(() => {marqueurticketcadeaux.scrollIntoView({behavior:"smooth",block:"start"});  
+        
+    }, 700);
+    
+}
+
+function alleratickethabillement()
+{
+    setTimeout(() => {marqueurtickethabillement.scrollIntoView({behavior:"smooth",block:"start"});  
+        
+    }, 700);
+    
+}
+
+
 var titretrm=document.getElementById('titretrm');
+
 titretrm.addEventListener('click',ouvrirlivres);
-titretrm.addEventListener('click',remonteenhaut);
+titretrm.addEventListener('click',alleraticketrestaurant);
 titretrm.addEventListener('click',afficheretoursommaire);
 
+var titrecadeauxm=document.getElementById('titrecadeauxm');
+titrecadeauxm.addEventListener('click',ouvrirlivres);
+titrecadeauxm.addEventListener('click',alleraticketcadeaux);
+titrecadeauxm.addEventListener('click',afficheretoursommaire);
+
+var titrehabillmentm=document.getElementById('titrehabillmentm');
+
+titrehabillmentm.addEventListener('click',ouvrirlivres);
+titrehabillmentm.addEventListener('click',alleratickethabillement);
+titrehabillmentm.addEventListener('click',afficheretoursommaire);
 
 
+
+
+
+
+var suivez=document.getElementById('suivez');
+suivez.addEventListener('click',alleraticketrestaurant);
+
+// {behavior:"smooth",block:"start"}
 
 
 flyersbt.addEventListener('click',ouvrirflyers);
