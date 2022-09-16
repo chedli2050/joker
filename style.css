@@ -1243,7 +1243,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 
 
-                                    99%{transform: scale(1.7) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile4.png)}
+                                    99%{transform: scale(2.2) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile4.png)}
                                     
                                     100%{transform: scale(1.4) rotateY(-90deg);opacity: 0;background-image: url(photos/photobanieremobile4.png)}
                                 }
@@ -1299,6 +1299,61 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
                     100%{transform: translate(-50%, -100%) rotateY(90deg);background-image: url(photos/ticketrestaurants.png)}
                 }
+
+
+
+
+
+
+
+                .logom {position: absolute; top: 30%;left: 50%;
+                    width: 284px;height: 127px;
+                    transform: translate(-50%, -50%) rotateY(-90deg);
+                    
+                    background-image: url(photos/logom.png);background-size: cover;
+                    
+                    
+                    
+                    
+                    animation-name: Animationlogom;
+                    animation-duration: 32s;
+                    animation-timing-function:linear;
+                    animation-iteration-count: infinite;
+                    animation-direction: normal;
+            }
+                   
+                    @keyframes Animationlogom
+                    {
+    
+                        0%{transform: translate(-50%, -150%) rotateY(-90deg);background-image: url(photos/logom.png)}
+
+                        60%{transform: translate(-50%, -150%) rotateY(-90deg);background-image: url(photos/logom.png)}
+
+                        61%{transform: translate(-50%, -50%) rotateY(0deg);background-image: url(photos/logom.png)}
+
+                        98%{transform: translate(-50%, -50%) rotateY(0deg);background-image: url(photos/logom.png)}
+                        99%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/logom.png)}
+                        100%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/logom.png)}
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                
 
                 .titretrm{width: 100%;height: auto;position: absolute;
@@ -1456,7 +1511,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 
             .boxsloganhm{
-            width: 100%;height: 100%;background-color: rgb(63, 140, 0);padding-left: 10px;padding-right: 10px;padding-top: 0px;
+            width: 100%;height: 100%;background-color: rgb(63, 140, 0);padding : 0px;padding-top: 0px;
             position: absolute;top: 0px;left: 0px;
 
             animation-name: Animationsloganhm;
