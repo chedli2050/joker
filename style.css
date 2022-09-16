@@ -1201,7 +1201,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 .boxinitilepartie1{display: none;}
 .boxinitilepartie2{display: none;}
 
-.boxintialegsm{display: flex;width: 100%;height: 400px;position: relative;overflow: hidden;}
+.boxintialegsm{display: flex;width: 100%;height: 350px;position: relative;overflow: hidden;}
                 .photobanieremobile{position: absolute;top: 0px;left: 0px;width: 100%;height: 400px;
                                     background-image: url(photos/photobanieremobile1.png);
                                     background-position: center;background-repeat: no-repeat;
@@ -1243,7 +1243,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 
 
-                                    99%{transform: scale(1.4) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile4.png)}
+                                    99%{transform: scale(1.7) rotateY(0deg);opacity: 1;background-image: url(photos/photobanieremobile4.png)}
                                     
                                     100%{transform: scale(1.4) rotateY(-90deg);opacity: 0;background-image: url(photos/photobanieremobile4.png)}
                                 }
@@ -1270,34 +1270,34 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                     0%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/ticketrestaurants.png)}
                     1%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/ticketrestaurants.png)}
                     2%{transform: translate(-50%, -50%) rotateY(0deg);background-image: url(photos/ticketrestaurants.png)}
-                    2.5%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/ticketrestaurants.png)}
+                    2.5%{transform: translate(-50%, -120%) rotateY(0deg);background-image: url(photos/ticketrestaurants.png)}
                     
-                    14%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/ticketrestaurants.png)}
-                    15%{transform: translate(-50%, -100%) rotateY(-90deg);background-image: url(photos/ticketrestaurants.png)}
+                    14%{transform: translate(-50%, -120%) rotateY(0deg);background-image: url(photos/ticketrestaurants.png)}
+                    15%{transform: translate(-50%, -120%) rotateY(-90deg);background-image: url(photos/ticketrestaurants.png)}
                     15.01%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/ticketcadeaux.png)}
                     
                     19%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/ticketcadeaux.png)}
                     20%{transform: translate(-50%, -50%) rotateY(0deg);background-image: url(photos/ticketcadeaux.png)}
-                    21%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/ticketcadeaux.png)}
+                    21%{transform: translate(-50%, -120%) rotateY(0deg);background-image: url(photos/ticketcadeaux.png)}
 
-                    30%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/ticketcadeaux.png)}
-                    31%{transform: translate(-50%, -100%) rotateY(-90deg);background-image: url(photos/ticketcadeaux.png)}
+                    30%{transform: translate(-50%, -120%) rotateY(0deg);background-image: url(photos/ticketcadeaux.png)}
+                    31%{transform: translate(-50%, -120%) rotateY(-90deg);background-image: url(photos/ticketcadeaux.png)}
                     31.01%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/tickethabillement.png)}
                     
                     33%{transform: translate(-50%, -50%) rotateY(-90deg);background-image: url(photos/tickethabillement.png)}
                     34%{transform: translate(-50%, -50%) rotateY(0deg);background-image: url(photos/tickethabillement.png)}
-                    35%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/tickethabillement.png)}
+                    35%{transform: translate(-50%, -120%) rotateY(0deg);background-image: url(photos/tickethabillement.png)}
 
 
 
 
-                    50%{transform: translate(-50%, -100%) rotateY(0deg);background-image: url(photos/tickethabillement.png)}
-                    51%{transform: translate(-50%, -100%) rotateY(90deg);background-image: url(photos/tickethabillement.png)}
+                    50%{transform: translate(-50%, -120%) rotateY(0deg);background-image: url(photos/tickethabillement.png)}
+                    51%{transform: translate(-50%, -120%) rotateY(90deg);background-image: url(photos/tickethabillement.png)}
 
 
 
 
-                    100%{transform: translate(-50%, -100%) rotateY(90deg);background-image: url(photos/tickethabillement.png)}
+                    100%{transform: translate(-50%, -100%) rotateY(90deg);background-image: url(photos/ticketrestaurants.png)}
                 }
                
 
@@ -1371,7 +1371,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
 
 
         .titrecontactm{width: 100%;height: auto;position: absolute;
-            bottom: 0px;left: 0px;background-color: rgba(0, 0, 0, 0.185);
+            bottom: 0px;left: 0px;background-color: rgba(255, 255, 255, 0.55);
             animation-name: animationcontactm;
             animation-duration: 32s;
             animation-timing-function:linear;
@@ -1390,9 +1390,11 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
           }
 
 
-.titrecontactm p{color: white;text-align: center;font-size: 24pt;font-weight: bold;text-shadow: 0px 0px 10px gray;}
+.titrecontactm p{color: rgb(63, 63, 63);text-align: center;font-size: 24pt;font-weight: bold;line-height: 39px;}
 
-
+.jokerbold2{font-weight: bold;color:red;
+    text-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.213);
+    font-family:Arial, Helvetica, sans-serif;}
 
 
 
@@ -1424,7 +1426,7 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                         16%{transform: translate(100%, 0%);}
                         100%{transform: translate(100%, 0%);}
                     }
-                .slogantrm{font-size: 18pt;font-weight: bold;color: white; text-align: center;font-family: Arial, Helvetica, sans-serif;}
+                .slogantrm{line-height: 30px;font-size: 18pt;font-weight: bold;color: white; text-align: center;font-family: Arial, Helvetica, sans-serif;}
 
 
                 .boxslogancadeauxm
@@ -1448,13 +1450,13 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
                     31%{transform: translate(100%, 0%);}
                     100%{transform: translate(100%, 0%);}
                 }
-            .slogancadeauxm{font-size: 18pt;font-weight: bold;color: white; text-align: center;font-family: Arial, Helvetica, sans-serif;}
+            .slogancadeauxm{line-height: 30px   ;font-size: 18pt;font-weight: bold;color: white; text-align: center;font-family: Arial, Helvetica, sans-serif;}
 
 
 
 
             .boxsloganhm{
-            width: 100%;height: 100%;background-color: rgb(63, 140, 0);padding: 0px;padding-top: 0px;
+            width: 100%;height: 100%;background-color: rgb(63, 140, 0);padding-left: 10px;padding-right: 10px;padding-top: 0px;
             position: absolute;top: 0px;left: 0px;
 
             animation-name: Animationsloganhm;
@@ -1467,16 +1469,16 @@ body{margin: 0%;padding: 0%;scroll-behavior: smooth;font-family: Arial, Helvetic
             {
 
                 0%{transform: translate(100%, 0%);}
-                35%{transform: translate(100%, 0%);}
-                35.5%{transform: translate(0%,0%);}
+                34%{transform: translate(100%, 0%);}
+                34.5%{transform: translate(0%,0%);}
                 50%{transform: translate(0%,0%);}
                 51%{transform: translate(100%, 0%);}
                 100%{transform: translate(100%, 0%);}
             }
         .sloganhm{font-size: 18pt;font-weight: bold;color: white; text-align: center;font-family: Arial, Helvetica, sans-serif;}
-
+        .sloganhm2{margin-top: -20px;font-size: 18pt;font-weight: bold;color: white; text-align: center;font-family: Arial, Helvetica, sans-serif;}
         .boxslogancontact1m{
-            width: 100%;height: 100%;background-color: rgb(0, 0, 0);padding: 0px;padding-top: 10px;
+            width: 100%;height: 100%;background-color: rgb(50, 50, 50);padding: 0px;padding-top: 10px;
             position: absolute;top: 0px;left: 0px;
 
             animation-name: Animationcontact1m;

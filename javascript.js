@@ -408,6 +408,10 @@ titrehabillmentm.addEventListener('click',alleratickethabillement);
 titrehabillmentm.addEventListener('click',afficheretoursommaire);
 
 
+var titrecontactm=document.getElementById('titrecontactm');
+titrecontactm.addEventListener('click',ouvrirblocnotes);
+titrecontactm.addEventListener('click',remonteenhaut);
+titrecontactm.addEventListener('click',afficheretoursommaire);
 
 
 
